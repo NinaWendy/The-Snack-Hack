@@ -321,3 +321,25 @@ h4{
 .displays img{
 	width: 100%;
 }
+.private{
+	text-align: center;
+	margin-top: 5%;
+}
+blockquote{
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 3%;
+	color: rgb(59, 59, 59);
+}
+
+.contact-btn{
+	padding: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: transparent;
+	color: black;
+	border: 2px solid black;
+	font-size: 1.2vw;
+	margin-top: 3%;
+	margin-bottom: 4%;
+}
