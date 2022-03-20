@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Holtwood+One+SC&family=Pacifico&family=Playfair+Display&family=Quicksand:wght@300&family=Roboto:wght@100&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+*, *:before, *::after{
+   box-sizing: inherit;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+  }
+.nav-list{
+    list-style:none; 
+  }
+  .nav-list a{
+      font-weight: bold;
+    text-decoration:none;
+    transition:color 0.3s ease-out;
+    color: white;
+  }
+  
+  .nav-list li{
+    position:relative;
+    display:inline-block;
+    margin:3%;
+    margin-top: 2%;
+    letter-spacing:-1%;
+  }
+  
+  
+  .list:after, 
+  .list:before,
+  .list a:after, 
+  .list a:before{
+    background-color:#CEDD3E;
+  }
+  
+  .list:hover{
+    color:#CEDD3E
+  }
+  
+  .features:after, 
+  .features:before,
+  .features a:after, 
+  .features a:before{
+    background-color:#F27132;
+  }
+  
+  .features:hover{
+    color:#F27132;
+  }
+  
+  .order:after, 
+  .order:before,
+  .order a:after, 
+  .order a:before{
+    background-color:#85C3E9;
+  }
+  
+  .order:hover{
+    color:#85C3E9;
+  }
+  
+  .contact:after, 
+  .contact:before,
+  .contact a:after, 
+  .contact a:before{
+    background-color:#FDBE2A;
+  }
+  
+  .contact:hover{
+    color:#FDBE2A;
+  }
+  
+  .nav-list li:after, 
+  .nav-list li:before, 
+  .nav-list  a:before, 
+  .nav-list  a:after{
+    position:absolute;
+    content:'';
+    border-radius:4px;
+  }
+  
+  .nav-list li:after,
+  .nav-list li:before{
+    bottom:-4px;
+    height:4px;
+  }
+  
+  .nav-list li:not(.selected):before{
+    left:0;
+    right:-2px;
+  }
+  
+  .nav-list li.selected:after{
+    left:0;
+    right:39px; 
+  }
+  
+  .nav-list li.selected:before{
+    right:-2px;
+    width:13px;
+  }
+  
+  
+  .nav-list .selected a:before{
+    height:22px;
+    width:4px;
+    bottom:-22px;
+    right:7px;
+  }
+  
+  .nav-list .selected a:after{
+    height:4px;
+    width:40px;
+    bottom:-13px;
+    right:5px;
+    transform:rotate(30deg);
+  }
+  nav{
+      width:100%;
+      text-align: center;
+  }
