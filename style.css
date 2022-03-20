@@ -309,5 +309,15 @@ h4{
 	border: 2px solid black;
 	color: white;
 	font-size: 1.2vw;
-
+}
+.displays{
+	display: -ms-grid;
+    columns: 3;
+	margin-top: 4%;
+	margin-bottom: 5%;
+    width: 100%;
+	
+}
+.displays img{
+	width: 100%;
 }
