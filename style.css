@@ -2,141 +2,151 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Holtwood+One+SC&family=Pacifico&family=Playfair+Display&family=Quicksand:wght@300&family=Roboto:wght@100&display=swap');
 
-html{
+html {
     box-sizing: border-box;
 }
-*{
+
+* {
     margin: 0%;
     padding: 0%;
 }
-*, *:before, *::after{
-   box-sizing: inherit;
+
+*,
+*:before,
+*::after {
+    box-sizing: inherit;
 }
-body{
+
+body {
     font-family: 'Varela Round', sans-serif;
-  }
-.nav-list{
-    list-style:none; 
-  }
-  .nav-list a{
-      font-weight: bold;
-    text-decoration:none;
-    transition:color 0.3s ease-out;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list a {
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-out;
     color: white;
-  }
-  
-  .nav-list li{
-    position:relative;
-    display:inline-block;
-    margin:3%;
+}
+
+.nav-list li {
+    position: relative;
+    display: inline-block;
+    margin: 3%;
     margin-top: 2%;
-    letter-spacing:-1%;
-  }
-  
-  
-  .list:after, 
-  .list:before,
-  .list a:after, 
-  .list a:before{
-    background-color:#CEDD3E;
-  }
-  
-  .list:hover{
-    color:#CEDD3E
-  }
-  
-  .features:after, 
-  .features:before,
-  .features a:after, 
-  .features a:before{
-    background-color:#F27132;
-  }
-  
-  .features:hover{
-    color:#F27132;
-  }
-  
-  .order:after, 
-  .order:before,
-  .order a:after, 
-  .order a:before{
-    background-color:#85C3E9;
-  }
-  
-  .order:hover{
-    color:#85C3E9;
-  }
-  
-  .contact:after, 
-  .contact:before,
-  .contact a:after, 
-  .contact a:before{
-    background-color:#FDBE2A;
-  }
-  
-  .contact:hover{
-    color:#FDBE2A;
-  }
-  
-  .nav-list li:after, 
-  .nav-list li:before, 
-  .nav-list  a:before, 
-  .nav-list  a:after{
-    position:absolute;
-    content:'';
-    border-radius:4px;
-  }
-  
-  .nav-list li:after,
-  .nav-list li:before{
-    bottom:-4px;
-    height:4px;
-  }
-  
-  .nav-list li:not(.selected):before{
-    left:0;
-    right:-2px;
-  }
-  
-  .nav-list li.selected:after{
-    left:0;
-    right:39px; 
-  }
-  
-  .nav-list li.selected:before{
-    right:-2px;
-    width:13px;
-  }
-  
-  
-  .nav-list .selected a:before{
-    height:22px;
-    width:4px;
-    bottom:-22px;
-    right:7px;
-  }
-  
-  .nav-list .selected a:after{
-    height:4px;
-    width:40px;
-    bottom:-13px;
-    right:5px;
-    transform:rotate(30deg);
-  }
-  nav{
-      width:100%;
-      text-align: center;
-  }
-  .cont{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./assets/1922.jpg');
+    letter-spacing: -1%;
+}
+
+
+.list:after,
+.list:before,
+.list a:after,
+.list a:before {
+    background-color: #CEDD3E;
+}
+
+.list:hover {
+    color: #CEDD3E
+}
+
+.features:after,
+.features:before,
+.features a:after,
+.features a:before {
+    background-color: #F27132;
+}
+
+.features:hover {
+    color: #F27132;
+}
+
+.order:after,
+.order:before,
+.order a:after,
+.order a:before {
+    background-color: #85C3E9;
+}
+
+.order:hover {
+    color: #85C3E9;
+}
+
+.contact:after,
+.contact:before,
+.contact a:after,
+.contact a:before {
+    background-color: #FDBE2A;
+}
+
+.contact:hover {
+    color: #FDBE2A;
+}
+
+.nav-list li:after,
+.nav-list li:before,
+.nav-list a:before,
+.nav-list a:after {
+    position: absolute;
+    content: '';
+    border-radius: 4px;
+}
+
+.nav-list li:after,
+.nav-list li:before {
+    bottom: -4px;
+    height: 4px;
+}
+
+.nav-list li:not(.selected):before {
+    left: 0;
+    right: -2px;
+}
+
+.nav-list li.selected:after {
+    left: 0;
+    right: 39px;
+}
+
+.nav-list li.selected:before {
+    right: -2px;
+    width: 13px;
+}
+
+
+.nav-list .selected a:before {
+    height: 22px;
+    width: 4px;
+    bottom: -22px;
+    right: 7px;
+}
+
+.nav-list .selected a:after {
+    height: 4px;
+    width: 40px;
+    bottom: -13px;
+    right: 5px;
+    transform: rotate(30deg);
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+.cont {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/1922.jpg');
     background-repeat: no-repeat;
-	background-size: 100%;
+    background-size: 100%;
     width: 100%;
     height: 100vh;
 }
-h2{
+
+h2 {
     text-align: center;
-	color: white;
+    color: white;
     margin-top: 8%;
     font-size: 3vw;
     font-family: "Holtwood One SC";
@@ -145,7 +155,7 @@ h2{
 
 .button {
     border-radius: 5%;
-    background-color:orange;
+    background-color: orange;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -155,28 +165,87 @@ h2{
     transition: all 0.5s;
     cursor: pointer;
     margin-left: 43%;
-  }
-  
-  .button span {
+}
+
+.button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
-  
-  .button span:after {
+}
+
+.button span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
     transition: 0.5s;
-  }
-  
-  .button:hover span {
+}
+
+.button:hover span {
     padding-right: 25%;
-  }
-  
-  .button:hover span:after {
+}
+
+.button:hover span:after {
     opacity: 1;
     right: 0;
-  }
+}
+
+.aboutUs {
+    clear: right;
+}
+
+hr {
+    position: relative;
+    border: none;
+    height: 12px;
+    background: black;
+}
+
+.story {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 1%;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 3%;
+}
+
+.story-img {
+    display: block;
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+
+.quote {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'Quicksand';
+    margin-bottom: 2%;
+
+}
+
+.learn {
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    font-size: 1.2vw;
+    margin-left: 45%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
