@@ -39,7 +39,7 @@ $('#confirm').click(function () {
 
     $("#amount").html(amount)
     $("#size").html(sizeOfPizza);
-    $("#toppings").html(checkboxes + " "+ '@' +price);
+    $("#toppings").html(checkboxes + " " + '@' + price);
     $("#crust").html(crustOfPizza);
     $("#total").html(total);
 
@@ -58,13 +58,13 @@ $('#confirm').click(function () {
         alert('Delivery is  ksh.100');
         let location = prompt("Enter your address:", "Nairobi");
         if (location != null) {
-            total +=100;
-            alert('Your grand total is'+ " "+"Ksh."+ total);
+            total += 100;
+            alert('Your grand total is' + " " + "Ksh." + total);
             alert("Thank You! Your order will be delivered to" + " " + location);
         }
     });
     $('#no').click(function () {
-        alert('Your grand total is'+ " "+ "Ksh."+total);
+        alert('Your grand total is' + " " + "Ksh." + total);
         alert('Pick your order at the counter.Thank You!');
     });
 
